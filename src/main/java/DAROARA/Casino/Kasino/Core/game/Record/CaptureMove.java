@@ -13,4 +13,5 @@ public record CaptureMove(
     public CaptureMove {
         loose = List.copyOf(loose);
     }
+
 }

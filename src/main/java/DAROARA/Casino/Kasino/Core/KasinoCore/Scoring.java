@@ -22,5 +22,4 @@ public class Scoring {
         }
         return total;
     }
-
 }

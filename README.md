@@ -1,13 +1,14 @@
 # Kasino
 
-A C# implementation of the card game **Kasino** (Casino), with human and computer players.
+A Java implementation of the card game **Kasino** (Casino), with human and computer players.
 
 ## Features
 
 - 2, 3 and 4 player modes (including 2v2 partners)
 - 40-card numbered deck
-- Capturing, trailing, building, raising and full builds
-- Two difficulty levels: with or without pack points
+- Capturing, trailing, building, raising , adding cards to builds and standing builds
+
+[//]: # (- Two difficulty levels: with or without pack points)
 - Computer (AI) players, with human/computer seats assigned randomly
 
 ## Game Modes
@@ -59,14 +60,12 @@ An opponent can capture a build with a card of the build's value. Captured build
 ### End of game
 The game ends when all players are out of cards. The last player to capture a card or build takes every card left on the floor.
 
-## Getting Started
+[//]: # (## Getting Started)
 
-```bash
-git clone <repo-url>
-cd Kasino
-dotnet build
-dotnet run
-```
+[//]: # (```bash)
+
+[//]: # (    )
+[//]: # (```)
 
 > Update the repository URL and project paths to match your setup.
 

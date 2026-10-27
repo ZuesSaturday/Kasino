@@ -20,7 +20,6 @@ public record Card(int Value, Suit suit) {
         if (this.Value == 10 && this.suit == Diamonds) return 2;
         return  0;
     }
-
     public Object label() {
         String rank = this.Value() == 1 ? "A": String.valueOf(this.Value());
         String suit = "";

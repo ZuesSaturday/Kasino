@@ -12,5 +12,4 @@ public class BuildLayer {
     public List<Card> getSetCards() {
         return setCards;
     }
-
 }

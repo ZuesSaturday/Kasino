@@ -11,5 +11,6 @@ public record BuildMove(
 ) implements Move {
     public BuildMove {
         loose = List.copyOf(loose);
+
     }
 }

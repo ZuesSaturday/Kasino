@@ -16,5 +16,4 @@ public class Side {
         return Name;
     }
 
-
 }

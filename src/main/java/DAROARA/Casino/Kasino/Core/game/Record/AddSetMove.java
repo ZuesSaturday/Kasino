@@ -4,7 +4,6 @@ import DAROARA.Casino.Kasino.Core.KasinoCore.Build;
 import DAROARA.Casino.Kasino.Core.KasinoCore.Card;
 
 import java.util.List;
-
 public record AddSetMove(
         Card played,
         List<Card> loose,

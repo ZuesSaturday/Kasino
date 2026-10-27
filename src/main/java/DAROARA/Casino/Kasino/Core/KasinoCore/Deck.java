@@ -27,7 +27,6 @@ public class Deck {
         Collections.shuffle(cards, random);
         return this;
     }
-
     public Card drawCard() {
         if (cards.isEmpty()) {
             throw new IllegalStateException("The deck is empty!");

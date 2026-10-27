@@ -16,7 +16,6 @@ public class Player {
         this.side = side;
         this.Hand = new ArrayList<>();
         this.Home = new ArrayList<>();
-
     }
 
     public String getName() {

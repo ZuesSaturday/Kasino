@@ -7,4 +7,5 @@ public record StandMove(
         Card played,
         Build target
         ) implements Move {
+
 }

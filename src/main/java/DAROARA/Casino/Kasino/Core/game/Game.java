@@ -308,7 +308,6 @@ public class Game {
             else Finish();
         }
     }
-
     public void Finish() {
         if (lastCapturer != null) {
             lastCapturer.getHome().addAll(Floor);

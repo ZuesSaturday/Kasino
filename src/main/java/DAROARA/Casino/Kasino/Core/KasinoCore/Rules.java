@@ -50,7 +50,6 @@ public class Rules {
         build.Raise(player,added);
     }
 
-
     public static boolean CanStand(Player player,Card played,Build build) {
         return player.getActiveBuild().equals(build) && player.getHand().stream().anyMatch(c->c.Value() == played.Value());
     }

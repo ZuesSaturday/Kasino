@@ -288,7 +288,6 @@ public class CasinoAI {
 
                     List<Card> combined =
                             new ArrayList<>(groups.get(i));
-
                     combined.addAll(groups.get(j));
                     results.add(combined);
                 }
